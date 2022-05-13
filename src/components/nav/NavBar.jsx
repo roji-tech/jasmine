@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import logo from "../../imgs/kotlin.png"
 import "./navBar.css"
@@ -21,3 +22,14 @@ const NavBar = () => {
 };
 
 export default NavBar;
+=======
+import React from 'react'
+
+const NavBar = () => {
+  return (
+    <div>NavBar</div>
+  )
+}
+
+export default NavBar
+>>>>>>> 496011902ad07c8d81c6f5354891ec564532e3e0
