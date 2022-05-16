@@ -1,5 +1,4 @@
 import React from "react";
-import Social from "../social/Social";
 import UnderStroke from "../UnderStroke/UnderStroke";
 
 import "./contact.css";
@@ -15,7 +14,7 @@ const Contact = ({ dark }) => {
       <div className="form-wrap">
         <h4>Get In Touch</h4>
         <div className="form">
-          <div>saljfhjnsaljnfjlnm</div>
+          <div></div>
           <form action="">
             <div>
               <label htmlFor="name">Name</label>
@@ -41,10 +40,6 @@ const Contact = ({ dark }) => {
         <div></div>
         <div></div>
       </div>
-      {/* <div className="contact-social">
-        <p>Thank You Very Much</p>
-        <Social />
-      </div> */}
     </div>
   );
 };

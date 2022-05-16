@@ -20,7 +20,12 @@ const Resume = ({ dark }) => {
           </div>
           <div className="resume-toggle-title">
             <label className="res1 ">
-              <input type="radio" name="resume-title-radio" id="aaa" />
+              <input
+                type="radio"
+                name="resume-title-radio"
+                defaultChecked
+                id="aaa"
+              />
               <li className="pseudo-effect">Education</li>
             </label>
             <label className="res2">

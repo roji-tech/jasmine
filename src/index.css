@@ -6,6 +6,12 @@
   --btn-color-1: rgba(34, 255, 0, 0.642);
   --btn-color-2: rgb(0, 255, 4);
   --btn-color-3: rgb(0, 255, 0);
+  --header-grad: linear-gradient(
+    rgb(3, 54, 3),
+    rgb(6, 39, 6),
+    rgb(16, 143, 16),
+    hsla(82, 100%, 50%, 0.756)
+  );
 }
 * {
   padding: 0;
@@ -16,7 +22,6 @@
 body {
   overflow-x: hidden;
 }
-
 
 /* =======================
     BACKGROUND MODES

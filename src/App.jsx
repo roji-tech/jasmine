@@ -18,7 +18,7 @@ function App() {
       <SideBar switchMode={switchMode} dark={dark} />
       <Header dark={dark} switchMode={switchMode} />
       <Home dark={dark} />
-      {/* <Footer/> */}
+      <Footer />
     </div>
   );
 }
