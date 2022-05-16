@@ -1,26 +1,108 @@
+.header-container {
+  background: linear-gradient(
+    rgb(3, 54, 3),
+    rgb(6, 39, 6),
+    rgb(16, 143, 16),
+    hsla(82, 100%, 50%, 0.756)
+  );
+  color: var(--bg-light);
+  position: relative;
+}
 .header {
   padding: 5%;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.7fr 1fr;
   text-align: center;
-  background-color: var(--bg-dark);
+  align-items: center;
+  background-blend-mode: multiply;
 }
-.header-img {
+
+.header-img-container {
+  padding: 10px;
+  z-index: 10;
   width: 100%;
   border-radius: 50%;
-  height: 150%;
+  height: 120%;
 }
 
-.light {
-  color: aliceblue;
-  background-color: rgb(16, 13, 13);
+.header-img {
+  width: 90%;
+  background-color: blue;
+  border-radius: 50%;
+  background-image: url("../../imgs/headerImg.png");
+  background-position: center;
+  background-size: cover;
+  box-shadow: -5px 15px 1px 2px var(--bg-dark);
+  height: 120%;
+  z-index: 50;
+  transition: all .3s ease-in-out;
+}
+.header-img:hover{
+  transform: rotateZ(-20deg) scale(1.2);
+
 }
 
-.dark {
-  color: aliceblue;
-  background-color: rgb(16, 13, 13);
+.p1 {
+  font-family: cursive;
 }
-.dark {
-  color: aliceblue;
-  background-color: rgb(16, 13, 13);
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
 }
+
+.job {
+  display: inline-block;
+  animation-name: skew-job;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  font-family: sans-serif, "Times New Roman", Times, serif;
+}
+
+.p3 {
+  font-family: "cursive", "Courier New", Courier, monospace;
+}
+
+@keyframes skew-job {
+  0% {
+    transform: scale(1);
+    color: var(--bg-light);
+  }
+  50% {
+    transform: scale(0.8);
+    color: var(--bg-gray);
+  }
+  100% {
+    transform: scale(1);
+    color: var(--cl-gray);
+  }
+}
+
+.curvediv {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  transform: translateY(6px);
+}
+
+/* .curved-div {
+  position: relative;
+  background: linear-gradient(
+    rgb(16, 143, 16),
+    rgb(2, 41, 2),
+    rgb(3, 54, 3),
+    rgb(16, 143, 16)
+  );
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.curved-div svg {
+  display: block;
+} */

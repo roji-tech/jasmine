@@ -1,0 +1,98 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 90vh;
+  align-self: center;
+  border-radius: 10px;
+  background-color: rgba(87, 139, 139, 0.456);
+}
+
+.contact h3 {
+  margin: 10px;
+}
+.contact .contact-stroke {
+  margin: 10px;
+}
+.contact > .p1 {
+  margin: 5px;
+  font-size: larger;
+}
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+}
+
+.form-wrap h4 {
+  font-family: cursive;
+  font-size: x-large;
+  margin: 3px;
+}
+.form-wrap .form {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 100%;
+  height: 100%;
+}
+.form-wrap .form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-wrap .form form div {
+  color: black;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-wrap .form form .contact-buttons {
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+.form-wrap .form form .contact-buttons button {
+  font-size: large;
+  padding: 10px;
+  width: 70%;
+  border-radius: 20px;
+}
+.form-wrap .form form label {
+  margin: 10px 0;
+  color: black;
+}
+
+.form-wrap .form form input {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.form-wrap .form form textarea {
+  margin: 10px 0;
+  color: black;
+  width: 100%;
+  resize: none;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+/* ===================
+  SOCIAL
+====================== */
+.contact-social {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}

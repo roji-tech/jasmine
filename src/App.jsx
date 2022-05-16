@@ -1,24 +1,25 @@
+import React, { useState } from "react";
 // components
 import Home from "./components/home/Home";
-<<<<<<< HEAD
-import Footer from "./components/footer/Footer";
+
+import SideBar from "./components/sidebar/SideBar";
 import Header from "./components/header/Header";
-=======
-import NavBar from "./components/nav/NavBar";
 import Footer from "./components/footer/Footer";
->>>>>>> 496011902ad07c8d81c6f5354891ec564532e3e0
 
 function App() {
+  const [dark, setDark] = useState(true);
+
+  const switchMode = () => {
+    setDark(!dark);
+  };
+
   return (
-    <>
-<<<<<<< HEAD
-      <Header />
-=======
-      <NavBar />
->>>>>>> 496011902ad07c8d81c6f5354891ec564532e3e0
-      <Home />
-      <Footer />
-    </>
+    <div className={dark ? "dark" : "light"}>
+      <SideBar switchMode={switchMode} dark={dark} />
+      <Header dark={dark} switchMode={switchMode} />
+      <Home dark={dark} />
+      {/* <Footer/> */}
+    </div>
   );
 }
 export default App;

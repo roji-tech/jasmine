@@ -1,13 +1,49 @@
 :root {
-  --sect-bg-color: rgb(121, 255, 118);
+  --bg-light: rgb(147, 225, 146);
+  --bg-dark: rgb(17, 68, 11);
+  --bg-gray: rgb(85, 92, 80);
+  --cl-gray: rgb(177, 243, 190);
+  --btn-color-1: rgba(34, 255, 0, 0.642);
+  --btn-color-2: rgb(0, 255, 4);
+  --btn-color-3: rgb(0, 255, 0);
 }
-
-body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+* {
   padding: 0;
   border: 0;
   margin: 0;
-  overflow-x: hidden;
-  background-color: rgb(244, 244, 244);
 }
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* =======================
+    BACKGROUND MODES
+==========================*/
+.light {
+  background-color: var(--bg-light);
+  color: var(--bg-dark);
+}
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+}
+.gray {
+  background-color: var(--bg-gray);
+  color: var(--cl-gray);
+}
+/* 
+.light {
+  color: aliceblue;
+  background-color: rgb(16, 13, 13);
+}
+
+.dark {
+  color: aliceblue;
+  background-color: rgb(16, 13, 13);
+}
+.dark {
+  color: aliceblue;
+  background-color: rgb(16, 13, 13);
+} */

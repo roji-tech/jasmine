@@ -1,35 +1,24 @@
-<<<<<<< HEAD
 import React from "react";
-import logo from "../../imgs/kotlin.png"
-import "./navBar.css"
+import SwitchBgMode from "../switchBgMode/SwitchBgMode";
+import logo from "../../imgs/kotlin.png";
+import "./navBar.css";
 
-const NavBar = () => {
+const NavBar = ({ dark, switchMode }) => {
   return (
-    <div>
-      <div>
-        <img src={logo} className='logo' alt="LOGO" />
-        
-
+    <div className="navbar">
+      <div className="logo-wrap">
+        <img src={logo} className="logo" alt="LOGO" />
+        <p className="logo-name">AISHA</p>
       </div>
-      <div>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Services</li>
+      <SwitchBgMode dark={dark} switchMode={switchMode} />
+      <div className="nav-links">
+        <li className="nav-link">Home</li>
+        <li className="nav-link">About</li>
+        <li className="nav-link">Testimonies</li>
+        <li className="nav-link">Contact</li>
       </div>
     </div>
   );
 };
 
 export default NavBar;
-=======
-import React from 'react'
-
-const NavBar = () => {
-  return (
-    <div>NavBar</div>
-  )
-}
-
-export default NavBar
->>>>>>> 496011902ad07c8d81c6f5354891ec564532e3e0
