@@ -1,32 +1,45 @@
 import React from "react";
-import UnderStroke from "../UnderStroke/UnderStroke";
+import UnderStroke from "../EXTRAS/UnderStroke/UnderStroke";
 
-import "./contact.css";
+import { ContactFormWrap, ContactHead, ContactWrap } from "./contactStyle";
 
 const Contact = ({ dark }) => {
   return (
-    <div className="contact">
-      <h3>Contact Me</h3>
+    <ContactWrap>
+      <ContactHead className="head"> Contact Me </ContactHead>
       <div className="contact-stroke">
         <UnderStroke dark={dark} />
       </div>
       <p className="p1">Let's Stay in Touch</p>
-      <div className="form-wrap">
+      <ContactFormWrap>
         <h4>Get In Touch</h4>
         <div className="form">
-          <div></div>
+          <div className="contact-box">
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+            <div className="box"></div>
+          </div>
+          <hr />
           <form action="">
             <div>
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" name="name" />
+              <input
+                type="text"
+                placeholder="Full Name"
+                id="name"
+                name="name"
+              />
             </div>
             <div>
-              <label htmlFor="email">Email</label>
-              <input type="text" id="email" name="email" />
+              <input type="text" id="email" placeholder="Email" name="email" />
             </div>
             <div>
-              <label htmlFor="message">Message</label>
-              <textarea rows={6} id="message" name="message" />
+              <textarea
+                rows={5}
+                id="message"
+                placeholder="Message"
+                name="message"
+              />
             </div>
             <div className="contact-buttons">
               <button type="submit">Send</button>
@@ -34,13 +47,13 @@ const Contact = ({ dark }) => {
             </div>
           </form>
         </div>
-      </div>
+      </ContactFormWrap>
       <div>
         <div></div>
         <div></div>
         <div></div>
       </div>
-    </div>
+    </ContactWrap>
   );
 };
 

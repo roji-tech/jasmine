@@ -9,8 +9,8 @@ const Footer = () => {
     <footer>
       <p>Thank You Very Much</p>
       <div className="footer-buttons">
-        <Button bgColor="" text={"Hire Me"} />
-        <Button text={"Get Resume"} />
+        <Button fontSize="larger" bgColor="" text={"Hire Me"} />
+        <Button fontSize="larger" text={"Get Resume"} />
       </div>
       <Social />
     </footer>

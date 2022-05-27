@@ -1,15 +1,12 @@
 import React from "react";
-import SwitchBgMode from "../switchBgMode/SwitchBgMode";
+import SwitchBgMode from "../EXTRAS/switchBgMode/SwitchBgMode";
 import logo from "../../imgs/kotlin.png";
 import "./navBar.css";
 
 const NavBar = ({ dark, switchMode }) => {
   return (
     <div className="navbar">
-      <div className="logo-wrap">
-        <img src={logo} className="logo" alt="LOGO" />
-        <p className="logo-name">AISHA</p>
-      </div>
+ 
       <SwitchBgMode dark={dark} switchMode={switchMode} />
       <div className="nav-links">
         <li className="nav-link">Home</li>

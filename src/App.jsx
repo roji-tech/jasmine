@@ -1,23 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 // components
 import Home from "./components/home/Home";
+import GlobalStyle from "./GlobalStyle";
 
-import SideBar from "./components/sidebar/SideBar";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
 function App() {
-  const [dark, setDark] = useState(true);
-
-  const switchMode = () => {
-    setDark(!dark);
-  };
-
   return (
-    <div className={dark ? "dark" : "light"}>
-      <SideBar switchMode={switchMode} dark={dark} />
-      <Header dark={dark} switchMode={switchMode} />
-      <Home dark={dark} />
+    <div>
+      <Header />
+      <Home />
       <Footer />
     </div>
   );

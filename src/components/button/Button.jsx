@@ -4,7 +4,7 @@ import "./button.css";
 const Button = ({ text, fontSize, color, bgColor }) => {
   return (
     <button
-      className="button"
+      className="button btn-3d"
       style={{
         fontSize: fontSize,
         color: color,

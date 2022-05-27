@@ -1,65 +1,185 @@
+/* =====================
+   3D BUTTON 1
+   ===================== */
+
 .button {
   width: 130px;
   height: 40px;
-  padding: 10px;
   margin: 10px 10px 0 10px;
-  font-size: 0.5em;
-  text-align: center;
-  word-wrap: normal;
-  border: 0;
-  border-radius: 30%;
-  color: var(--cl-grey);
+  color: var(--btn-color-1);
   background-color: var(--btn-color-2);
   cursor: pointer;
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
   position: relative;
-  box-shadow: 0 0px 10px 2px var(--bg-dark);
+  /* ===================== */
+  position: relative;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  padding: 8px;
+  font-size: 1rem;
+  box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+  outline: none;
+  /* ====================== */
+  border-radius: 6px;
+  background: var(--btn-color-4);
+  box-shadow: -6px 6px 0 1px var(--btn-color-2);
 }
 
+.button:hover {
+  background: var(--btn-color-2);
+}
+
+.button:active {
+  background: var(--btn-color-2);
+  top: 3px;
+  left: -3px;
+  box-shadow: -3px 3px 0 hsl(16, 100%, 50%);
+}
+
+.button::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  /* border width needs to be size of the element's box shadow */
+  border: solid 6px transparent;
+
+  /* border width needs to be size of the element's box shadow */
+  border-right: solid 6px hsl(16, 100%, 30%);
+
+  /* no width for left, makes measurements easier */
+  border-left-width: 0px;
+  border-radius: 6px;
+
+  background: none;
+  top: 0px;
+
+  /* needs to be the same size as border width */
+  left: -6px;
+}
+
+.button::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  border: solid 6px transparent;
+  border-top: solid 6px hsl(16, 100%, 30%);
+  border-bottom-width: 0px;
+  background: none;
+  right: 0;
+  bottom: -6px;
+  border-radius: 6px;
+}
+
+.button:active::before {
+  border: solid 3px transparent;
+  border-right: solid 3px hsl(16, 100%, 30%);
+  border-left-width: 0px;
+  left: -3px;
+}
+
+.button:active::after {
+  border: solid 3px transparent;
+  border-top: solid 3px var();
+  border-bottom-width: 0px;
+  bottom: -3px;
+}
 .button span {
   animation: btnAnim 2s ease-in-out alternate;
   animation-iteration-count: infinite;
   font-weight: 1000;
 }
 
-/* .button::after,
-.button::before {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  bottom: 0%; 
-  background-color: var(--bg-light);
-  height: 120%;
-  z-index: 5;
+/* .button {
+  width: 130px;
+  height: 40px;
+  padding: 8px;
+  margin: 10px 10px 0 10px;
+  font-size: 0.5em;
+  text-align: center;
+  border: 0;
+  border-radius: 6px;
+  color: var(--btn-color-1);
+  background-color: var(--btn-color-2);
+  cursor: pointer;
+  transition: all 0.4s;
+  position: relative;
+  outline: none;
 } */
 
-/* .button::before{
-   background-color: var(--cl-grey);
+/* .btn-3d:active {
+  top: 3px;
+  left: -3px;
+  box-shadow: -3px 13px 0 var(--bg-dark);
 } */
 
-.button:hover {
-  transform: scale(1.1);
+/* .button:hover {
   color: var(--bg-dark);
-  background: var(--bg-light);
-  box-shadow: 0 0px 10px 2px var(--bg-light);
-}
+  background: var(--btn-color-2);
+  box-shadow: -6px 6px 0 1px var(--btn-color-4);
+} */
 
-/* .button:hover::after,
-.button:hover::before{
-   transform: translateY(10px);
+/* .btn-3d::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  border: solid 6px transparent;
+
+  border-right: solid 2px var(--btn-color-2);
+
+  border-left-width: 0px;
+
+  background: none;
+  top: 0px;
+
+  left: -6px;
+} */
+/* .btn-3d::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0;
+  width: 0;
+  border: solid 6px transparent;
+  border-top: solid 6px var(--btn-color-2);
+  border-bottom-width: 0px;
+  background: none;
+  right: 0;
+  bottom: -6px;
+} */
+
+/* .btn-3d:active::before {
+  border: solid 3px transparent;
+  border-right: solid 3px var(--btn-color-2);
+  border-left-width: 0px;
+  left: -3px;
+} */
+
+/* .btn-3d:active::after {
+  border: solid 3px transparent;
+  border-top: solid 3px var(--btn-color-2);
+  border-bottom-width: 0px;
+  bottom: -3px;
 } */
 
 @keyframes btnAnim {
   0% {
-    color: var(--bg-dark);
-    filter: brightness(.6);
+    color: var(--btn-color-3);
   }
   50% {
-    color: rgb(0, 242, 141);
+    color: var(--bg-light-1);
   }
   100% {
     color: var(--bg-light);
-    filter: brightness(.6);
   }
 }
+
+/* ============================
+   3D BUTTON
+   ============================ */

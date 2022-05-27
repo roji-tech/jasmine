@@ -1,5 +1,5 @@
 import React from "react";
-import { MdFacebook, MdCall, MdMail, MdEmail } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import {
   FaWhatsapp,
   FaTwitter,
@@ -11,14 +11,11 @@ import {
 import "./social.css";
 
 const Social = () => {
-  let socialSize = "20";
+  let socialSize = "30";
 
   return (
     <div>
       <div className="social-links">
-        <a href="">
-          <MdCall size={socialSize} className="social" />
-        </a>
         <a href="">
           <FaWhatsapp size={socialSize} className="social" />
         </a>

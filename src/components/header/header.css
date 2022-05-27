@@ -1,8 +1,16 @@
+
+
+
+
 .header-container {
-  background: var(--header-grad);
+  background: var(--bg-dark);
   color: var(--bg-light);
   position: relative;
 }
+
+
+.logo-wrap
+
 .header {
   padding: 5%;
   display: grid;
@@ -30,6 +38,7 @@
   box-shadow: -5px 15px 1px 2px var(--bg-dark);
   height: 120%;
   z-index: 50;
+  object-fit: contain;
   transition: all 0.3s ease-in-out;
 }
 .header-img:hover {
@@ -59,9 +68,7 @@
   font-family: sans-serif, "Times New Roman", Times, serif;
 }
 
-.p3 {
-  font-family: "cursive", "Courier New", Courier, monospace;
-}
+
 
 @keyframes skew-job {
   0% {
@@ -84,19 +91,3 @@
   background: transparent;
   transform: translateY(6px);
 }
-
-/* .curved-div {
-  position: relative;
-  background: linear-gradient(
-    rgb(16, 143, 16),
-    rgb(2, 41, 2),
-    rgb(3, 54, 3),
-    rgb(16, 143, 16)
-  );
-  color: #fff;
-  text-align: center;
-  overflow: hidden;
-}
-.curved-div svg {
-  display: block;
-} */
