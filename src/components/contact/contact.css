@@ -22,6 +22,10 @@
   font-size: larger;
 }
 
+.contact:last-child{
+  grid-column: 1/3;
+}
+
 /* ===================
   FORM WRAP
 ====================== */

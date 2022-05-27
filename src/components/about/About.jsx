@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../button/Button";
-import abtPics from "../../imgs/abt-pics.jpg";
+import abtPics from "../../imgs/abt-img.png";
 import { AboutWrap, AboutHead, AboutPics } from "./aboutStyle";
 import UnderStroke from "../EXTRAS/UnderStroke/UnderStroke";
 // import "./about.css";

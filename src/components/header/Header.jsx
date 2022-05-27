@@ -4,22 +4,16 @@ import {
   HeaderWrap,
   HeaderImgWrap,
   HeaderTexts,
-  LogoWrap,
-  LogoImg,
-  LogoName,
   HeaderButtons,
 } from "./headerStyle";
+import LogoWrapper from "../EXTRAS/logoWrap/LogoWrapper";
 import Social from "../social/Social";
-import logo from "../../imgs/blue-modern-Travel-light.png";
 import myImg from "../../imgs/headerImg.png";
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <LogoWrap>
-        <LogoImg src={logo} alt="LOGO" />
-        <LogoName> AISHA</LogoName>
-      </LogoWrap>
+      <LogoWrapper />
       <HeaderWrap>
         <HeaderTexts>
           <p className="p1"> Hi, </p>

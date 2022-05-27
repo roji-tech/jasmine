@@ -1,7 +1,46 @@
 import React from "react";
 import UnderStroke from "../EXTRAS/UnderStroke/UnderStroke";
-
+import {
+  FaWhatsapp,
+  FaTelegram,
+  FaFacebook,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import { ContactFormWrap, ContactHead, ContactWrap } from "./contactStyle";
+
+const socialData = [
+  {
+    name: "Whatsapp",
+    icon: <FaWhatsapp fontSize={40} color={"green"} />,
+  },
+  {
+    name: "Linked In",
+    icon: <FaLinkedinIn fontSize={40} color={"green"} />,
+  },
+  {
+    name: "Telegram",
+    icon: <FaTelegram fontSize={40} color={"green"} />,
+  },
+  {
+    name: "Facebook",
+    icon: <FaFacebook fontSize={40} color={"green"} />,
+  },
+  {
+    name: "Twitter",
+    icon: <FaTwitter fontSize={40} color={"green"} />,
+  },
+];
+
+const Box = ({ name, icon }) => {
+  return (
+    <div className="box">
+      {icon}
+      <h4>{name}</h4>
+      <small>Message on {name}</small>
+    </div>
+  );
+};
 
 const Contact = ({ dark }) => {
   return (
@@ -15,12 +54,10 @@ const Contact = ({ dark }) => {
         <h4>Get In Touch</h4>
         <div className="form">
           <div className="contact-box">
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
+            {socialData.map((box, index) => (
+              <Box name={box.name} icon={box.icon} />
+            ))}
           </div>
-          <hr />
           <form action="">
             <div>
               <input
