@@ -32,7 +32,6 @@ const GlobalStyle = createGlobalStyle`
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Abel', sans-serif;
   }
 
   body {

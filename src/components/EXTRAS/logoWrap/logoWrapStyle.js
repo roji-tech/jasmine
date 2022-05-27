@@ -19,10 +19,10 @@ export const LogoImg = styled.img`
 `;
 
 export const LogoName = styled.p`
+  font-family: "Satisfy", cursive;
   margin: 0;
   font-size: 2em;
   letter-spacing: 2px;
   font-weight: 1000;
-  font-family: cursive, Tahoma, sans-serif;
   color: var(--bg-white);
 `;
