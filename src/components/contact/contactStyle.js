@@ -61,7 +61,7 @@ export const ContactFormWrap = styled.div`
       border-right: 0.5px dotted var(--bg-darker);
 
       .box {
-        color: var(--bg-white);
+        color: var(--bg-light);
         justify-self: center;
         width: 180px;
         height: 130px;
@@ -86,7 +86,7 @@ export const ContactFormWrap = styled.div`
         align-items: center;
 
         h4 {
-          color: var(--bg-light);
+          color: var(--bg-white);
         }
       }
 
