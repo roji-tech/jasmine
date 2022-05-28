@@ -16,7 +16,7 @@ const Header = () => {
       <LogoWrapper />
       <HeaderWrap>
         <HeaderTexts>
-          <p className="p1"> Hi, </p>
+          <p className="p1"> Hello, </p>
           <p className="p2">
             I'm{" "}
             <span>
@@ -28,7 +28,7 @@ const Header = () => {
           </p>
           <Social />
           <HeaderButtons>
-            <Button bgColor="" text={"Hire Me"} />
+            <Button bgColor="" text={"Let's talk"} />
             <Button text={"Get Resume"} />
           </HeaderButtons>
         </HeaderTexts>

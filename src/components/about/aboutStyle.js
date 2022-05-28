@@ -22,7 +22,7 @@ export const AboutWrap = styled.section`
     align-items: center;
     justify-content: center;
     margin: 50px 0 20px 0;
-    box-shadow: 0 0 15px 0.5px;
+    box-shadow: 0 0 5px 0.5px;
 
     .about-content {
       display: grid;
@@ -31,7 +31,7 @@ export const AboutWrap = styled.section`
 
       @media screen and (max-width: 800px) {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
       }
     }
 
@@ -96,35 +96,41 @@ export const AboutPics = styled.div`
   .about-pics__div {
     position: relative;
     background-color: var(--bg-light);
+    background-color: lightblue;
+    border-radius: 20px;
     z-index: 0;
   }
 
-  .about-pics__div::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: var(--bg-white);
-    transform-origin: 0 0;
-    transform: rotate(3deg);
-    z-index: -1;
-    transition: transform 0.3s;
-  }
+  // .about-pics__div::after {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   bottom: 0;
+  //   right: 0;
+  //   background-color: var(--bg-white);
+  //   // transform-origin: 0 0;
+  //   transform: rotate(4deg);
+  //   z-index: -1;
+  //   transition: transform 0.3s;
+  // }
 
-  .about-pics__div:hover::after {
-    transform: rotate(0deg);
-  }
+  // .about-pics__div:hover::after {
+  //   transform: rotate(0deg);
+  // }
 
   .about-pics {
+    box-sizing: border-box;
+    // border: 6px solid blue;
+    padding: 0;
     object-fit: cover;
     object-position: 0px 0px;
     aspect-ratio: 1/1;
     width: 100%;
     height: 100%;
-    transform-origin: 0 0;
-    transform: rotate(6deg);
+    border-radius: 20px;
+    // transform-origin: 0 0;
+    transform: rotate(10deg);
     z-index: 1;
     transition: transform 0.4s;
   }

@@ -58,8 +58,9 @@ export const HeaderTexts = styled.div`
     }
   }
   .p3 {
-    font-size: var(--fontMed);
+    font-size: var(--fontSmall);
     font-family: "cursive", "Courier New", Courier, monospace;
+    color: var(--bg-light)
   }
 
   .job {

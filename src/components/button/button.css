@@ -3,7 +3,6 @@
    ===================== */
 
 .button {
-  width: 130px;
   height: 40px;
   margin: 10px 10px 0 10px;
   color: var(--btn-color-1);

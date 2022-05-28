@@ -57,7 +57,7 @@ export const ContactFormWrap = styled.div`
       grid-gap: 0.5em;
       justify-content: center;
       align-items: center;
-      border-right: 0.5px dotted var(--bg-darker);
+      border-right: 0.5px dotted var(--bg-light);
 
       a {
         text-decoration: none;
@@ -72,6 +72,15 @@ export const ContactFormWrap = styled.div`
           transition: background-color 0.2s ease-in;
           cursor: pointer;
 
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          :hover {
+            background-color: var(--color-1);
+          }
+
           @media screen and (max-width: 500px) {
             width: 300px;
           }
@@ -85,11 +94,6 @@ export const ContactFormWrap = styled.div`
             justify-self: center;
             align-self: center;
           }
-
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
 
           h4 {
             color: var(--bg-white);
@@ -156,16 +160,18 @@ export const ContactFormWrap = styled.div`
         }
 
         button {
+          box-sizing: border-box;
           font-size: large;
           padding: 10px 40px;
           margin: 15px 5px;
           //  width: 70%;
           border-radius: 10px;
           background-color: var(--bg-light);
-          transition: all 0.3s ease-out;
+          transition: background padding 0.3s;
           font-weight: 1000;
 
           &:hover {
+            background: var(--bg-white);
           }
 
           @media screen and (max-width: 400px) {
