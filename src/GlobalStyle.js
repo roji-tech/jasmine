@@ -15,8 +15,8 @@ const GlobalStyle = createGlobalStyle`
   --color-2: rgba(0, 0, 0, 0.256);
   --color-3: rgba(255, 250, 240, 0.456);
   --btn-color-1: rgba(34, 255, 0, 0.642);
-  --btn-color-2: #05386b;
-  --btn-color-4: #0d74dc;
+  --btn-color-2: #ff6200;
+  --btn-color-4: #ff5000;
   --btn-color-3: rgb(0, 255, 0);
   --maxWidth: 1280px;
   --darkGrey: #1c1c1c;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const AboutWrap = styled.section`
-  margin-top: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,7 +15,7 @@ export const AboutWrap = styled.section`
   }
 
   .about {
-  background: var(--bg-dark);
+    background: var(--bg-dark);
     width: 95%;
     padding: 5px;
     padding-bottom: 20px;
@@ -23,7 +24,7 @@ export const AboutWrap = styled.section`
     align-items: center;
     justify-content: center;
     margin: 50px 0 20px 0;
-    box-shadow: 0 0 15px .5px;
+    box-shadow: 0 0 15px 0.5px;
 
     .about-content {
       display: grid;
@@ -41,7 +42,7 @@ export const AboutWrap = styled.section`
     }
 
     .about-info {
-    color: var(--bg-white);
+      color: var(--bg-white);
       padding: 10px;
       display: flex;
       flex-direction: column;
@@ -96,7 +97,7 @@ export const AboutPics = styled.div`
 
   .about-pics__div {
     position: relative;
-    background-color: var(--bg-dark);
+    background-color: var(--bg-light);
     z-index: 0;
   }
 
@@ -107,7 +108,7 @@ export const AboutPics = styled.div`
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: var(--bg-light);
+    background-color: var(--bg-white);
     transform-origin: 0 0;
     transform: rotate(3deg);
     z-index: -1;
@@ -115,7 +116,7 @@ export const AboutPics = styled.div`
   }
 
   .about-pics__div:hover::after {
-    transform: rotate(-1.5deg);
+    transform: rotate(0deg);
   }
 
   .about-pics {
@@ -131,11 +132,6 @@ export const AboutPics = styled.div`
   }
 
   .about-pics__div:hover .about-pics {
-    transform: rotate(-3deg);
+    transform: rotate(0deg);
   }
 `;
-
-
-
-
-

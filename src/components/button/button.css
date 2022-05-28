@@ -18,7 +18,7 @@
   padding: 15px 24px;
   padding: 8px;
   font-size: 1rem;
-  box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+  box-shadow: -6px 6px 0 hsl(23, 100%, 51%);
   outline: none;
   /* ====================== */
   border-radius: 6px;
@@ -34,7 +34,7 @@
   background: var(--btn-color-2);
   top: 3px;
   left: -3px;
-  box-shadow: -3px 3px 0 hsl(16, 100%, 50%);
+  box-shadow: -3px 3px 0 hsl(32, 100%, 50%);
 }
 
 .button::before {
@@ -47,7 +47,7 @@
   border: solid 6px transparent;
 
   /* border width needs to be size of the element's box shadow */
-  border-right: solid 6px hsl(16, 100%, 30%);
+  border-right: solid 6px hsl(28, 100%, 50%);
 
   /* no width for left, makes measurements easier */
   border-left-width: 0px;
@@ -67,7 +67,7 @@
   height: 0;
   width: 0;
   border: solid 6px transparent;
-  border-top: solid 6px hsl(16, 100%, 30%);
+  border-top: solid 6px hsl(28, 100%, 50%);
   border-bottom-width: 0px;
   background: none;
   right: 0;
@@ -77,7 +77,7 @@
 
 .button:active::before {
   border: solid 3px transparent;
-  border-right: solid 3px hsl(16, 100%, 30%);
+  border-right: solid 3px hsl(28, 100%, 50%);
   border-left-width: 0px;
   left: -3px;
 }
@@ -93,80 +93,6 @@
   animation-iteration-count: infinite;
   font-weight: 1000;
 }
-
-/* .button {
-  width: 130px;
-  height: 40px;
-  padding: 8px;
-  margin: 10px 10px 0 10px;
-  font-size: 0.5em;
-  text-align: center;
-  border: 0;
-  border-radius: 6px;
-  color: var(--btn-color-1);
-  background-color: var(--btn-color-2);
-  cursor: pointer;
-  transition: all 0.4s;
-  position: relative;
-  outline: none;
-} */
-
-/* .btn-3d:active {
-  top: 3px;
-  left: -3px;
-  box-shadow: -3px 13px 0 var(--bg-dark);
-} */
-
-/* .button:hover {
-  color: var(--bg-dark);
-  background: var(--btn-color-2);
-  box-shadow: -6px 6px 0 1px var(--btn-color-4);
-} */
-
-/* .btn-3d::before {
-  position: absolute;
-  display: block;
-  content: "";
-  height: 0;
-  width: 0;
-  border: solid 6px transparent;
-
-  border-right: solid 2px var(--btn-color-2);
-
-  border-left-width: 0px;
-
-  background: none;
-  top: 0px;
-
-  left: -6px;
-} */
-/* .btn-3d::after {
-  position: absolute;
-  display: block;
-  content: "";
-  height: 0;
-  width: 0;
-  border: solid 6px transparent;
-  border-top: solid 6px var(--btn-color-2);
-  border-bottom-width: 0px;
-  background: none;
-  right: 0;
-  bottom: -6px;
-} */
-
-/* .btn-3d:active::before {
-  border: solid 3px transparent;
-  border-right: solid 3px var(--btn-color-2);
-  border-left-width: 0px;
-  left: -3px;
-} */
-
-/* .btn-3d:active::after {
-  border: solid 3px transparent;
-  border-top: solid 3px var(--btn-color-2);
-  border-bottom-width: 0px;
-  bottom: -3px;
-} */
 
 @keyframes btnAnim {
   0% {

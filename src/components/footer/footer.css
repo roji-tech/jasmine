@@ -10,7 +10,7 @@ footer {
   padding: 20px;
 }
 footer > p {
-  color: var(--bg-light-1);
+  color: #ff6200;
   font-size: xx-large;
   font-weight: 1000;
   font-family: cursive;

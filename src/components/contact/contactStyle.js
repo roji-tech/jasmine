@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ContactWrap = styled.section`
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
