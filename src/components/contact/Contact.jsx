@@ -37,13 +37,17 @@ const socialData = [
   },
 ];
 
-const Box = ({ name, icon }) => {
+const Box = ({ name, icon, link }) => {
   return (
-    <div className="box">
+    <a href={link} target={"_blank"} >
+      <div className="box">
+    
       {icon}
       <h4>{name}</h4>
       <small>Message on {name}</small>
-    </div>
+
+      </div>
+</a>
   );
 };
 
