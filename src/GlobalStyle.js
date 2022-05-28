@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   --bg-light: rgb(272, 231, 171);
   --bg-white: rgb(211, 155, 211);
   --bg-image: url(./imgs/subtle-prism.svg);
-  --bg-dark: rgb(0, 125, 0);
+  --bg-dark:  #003e29;
   --bg-gray: rgb(85, 92, 80);
   --color-1: rgba(0, 239, 139, 0.456);
   --color-2: rgba(0, 0, 0, 0.256);
@@ -38,7 +38,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: var(--bg-white);
+    background: var(--bg-dark);
+    color: var(--bg-light);
 
     .head{
       font-size: 2rem;
