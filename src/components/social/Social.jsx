@@ -19,7 +19,7 @@ const Social = () => {
         <a href="https://wa.me/+2348134093585">
           <FaWhatsapp size={socialSize} className="social" />
         </a>
-        <a href="abdullahjamiu4@gmail.com">
+        <a href="mailto:abdullahjamiu4@gmail.com">
           <MdEmail size={socialSize} className="social" />
         </a>
         <a href="https://t.me/Rojitech">
