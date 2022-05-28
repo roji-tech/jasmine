@@ -10,7 +10,7 @@ export const ContactWrap = styled.section`
   width: 90%;
   align-self: center;
   border-radius: 10px;
-  background-color: var(--color-1);
+  background-color: var(--bg-dark);
   box-shadow: 0 0 15px 2px;
 
   .contact-stroke {
@@ -57,10 +57,10 @@ export const ContactFormWrap = styled.div`
       grid-gap: 0.5em;
       justify-content: center;
       align-items: center;
-      border-right: 0.5px dotted var(--bg-dark);
+      border-right: 0.5px dotted var(--bg-darker);
 
       .box {
-        color: var(--bg-white);
+        color: var(--bg-darker);
         justify-self: center;
         width: 180px;
         height: 130px;
