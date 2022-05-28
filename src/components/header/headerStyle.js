@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  background: var(--bg-dark);
+  // background: var(--bg-dark);
   color: var(--bg-white);
   position: relative;
   padding: 0 15px 20px;
