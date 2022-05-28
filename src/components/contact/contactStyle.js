@@ -69,7 +69,7 @@ export const ContactFormWrap = styled.div`
           height: 130px;
           background-color: var(--color-2);
           border-radius: 15px;
-          transition: background-color 0.2s ease-in;
+          transition: background 0.3s, box-shadow 300ms ease-in;
           cursor: pointer;
 
           display: flex;
@@ -78,7 +78,8 @@ export const ContactFormWrap = styled.div`
           align-items: center;
 
           :hover {
-            background-color: var(--color-1);
+            background: var(--color-1);
+            box-shadow: 0 0 10px 1px var(--bg-light);
           }
 
           @media screen and (max-width: 500px) {

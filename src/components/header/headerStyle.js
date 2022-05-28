@@ -104,12 +104,12 @@ export const HeaderImgWrap = styled.div`
     object-fit: cover;
     aspect-ratio: 1/1;
     transition: all 0.3s ease-in-out;
-    transform: scale(0.7);
-    transition: box-shadow 0.4s, transform 0.4s ease-in-out;
+    transform: scale(0.9);
+    transition: box-shadow 0.4s ease-in-out;
 
     :hover {
-      transform: scale(.9);
-      box-shadow: 0 0 20px 3px;
+      // transform: scale(.9);
+      box-shadow: 0 0 20px 3px var(--bg-light);
     }
   }
 
