@@ -45,6 +45,7 @@ const GlobalStyle = createGlobalStyle`
     .head{
       font-size: 2rem;
       padding: 20px;
+      color: var(--bg-darker)
     }
     
     h1 {
