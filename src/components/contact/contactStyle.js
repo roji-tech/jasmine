@@ -14,11 +14,12 @@ export const ContactWrap = styled.section`
   box-shadow: 0 0 15px 2px;
 
   .contact-stroke {
-    margin: 10px;
+    margin: 6px;
   }
   .p1 {
     margin: 5px;
     font-size: larger;
+    color: var(--bg-white);
   }
 `;
 
@@ -60,7 +61,7 @@ export const ContactFormWrap = styled.div`
       border-right: 0.5px dotted var(--bg-darker);
 
       .box {
-        color: var(--bg-darker);
+        color: var(--bg-white);
         justify-self: center;
         width: 180px;
         height: 130px;
