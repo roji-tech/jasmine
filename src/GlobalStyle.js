@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: var(--bg-dark);
+    background: var(--bg-light);
     color: var(--bg-light);
 
     .head{
