@@ -14,6 +14,7 @@ export const AboutWrap = styled.section`
   }
 
   .about {
+  background: var(--bg-dark);
     width: 95%;
     padding: 5px;
     padding-bottom: 20px;
