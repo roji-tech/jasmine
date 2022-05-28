@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   background: var(--bg-dark);
-  color: var(--bg-light);
+  color: var(--bg-white);
   position: relative;
   padding: 0 15px 20px;
   margin-bottom: 40px;
@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
 export const HeaderWrap = styled.div`
   background: var(--bg-dark);
   // max-height: 90vh;
-  color: var(--bg-light);
+  color: var(--bg-white);
   display: grid:
   padding: 5%;
   display: grid;
@@ -121,12 +121,3 @@ export const HeaderImgWrap = styled.div`
   }
 `;
 
-// export const CurvedDiv = styled.div`
-//   padding: 0;
-//   background: transparent;
-//   transform: translateY(6px) scaleX(1.1);
-
-//   @media screen and (max-width: 800px) {
-//     display: none;
-//   }
-// `;
