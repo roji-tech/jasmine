@@ -1,17 +1,16 @@
 import styled from "styled-components";
 
 export const ContactWrap = styled.section`
-  margin-top: 100px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 90%;
   align-self: center;
+  justify-self: center;
   border-radius: 10px;
   background-color: var(--bg-dark);
-  box-shadow: 0 0 15px 0.5px;
+  box-shadow: 0 0 5px 0.5px;
 
   .contact-stroke {
     margin: 6px;
@@ -66,15 +65,19 @@ export const ContactFormWrap = styled.div`
         .box {
           color: var(--bg-light);
           justify-self: center;
-          width: 180px;
+          width: 190px;
           height: 130px;
           background-color: var(--color-2);
           border-radius: 15px;
           transition: background-color 0.2s ease-in;
           cursor: pointer;
 
-          :hover {
-            background-color: var(--color-3);
+          @media screen and (max-width: 500px) {
+            width: 300px;
+          }
+
+          @media screen and (max-width: 360px) {
+            width: 220px;
           }
 
           &:nth-child(3) {

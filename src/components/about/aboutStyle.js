@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const AboutWrap = styled.section`
-  margin-top: 100px;
-  margin-bottom: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;

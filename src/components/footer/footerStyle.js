@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.footer`
   background: var(--bg-dark);
-  margin-top: 10%;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -25,12 +25,15 @@ export const FooterWrapper = styled.footer`
       font-family: cursive;
     }
   }
+  small {
+    margin: 40px 0 20px;
+  }
 
   .media {
     padding-top: 50px;
   }
 `;
-export const FooterWrap = styled.footer`
+export const FooterWrap = styled.div`
   width: 90%;
   display: flex;
   justify-content: space-evenly;
@@ -47,6 +50,14 @@ export const FooterButtons = styled.div`
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
+
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+  }
 
   @media screen and (max-width: 400px) {
     display: flex;
