@@ -22,7 +22,7 @@ const Social = () => {
         <a href="mailto:abdullahjamiu4@gmail.com" target={"_blank"}>
           <MdEmail size={socialSize} className="social" />
         </a>
-        <a href="https://t.me/Rojitech" target={"_blank"}>
+        <a href="https://t.me/aishawrite" target={"_blank"}>
           <FaTelegramPlane size={socialSize} className="social" />
         </a>
         <a href="https://www.facebook.com/aisha.akinbani" target={"_blank"}>
