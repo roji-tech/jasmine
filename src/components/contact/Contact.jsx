@@ -41,13 +41,11 @@ const Box = ({ name, icon, link }) => {
   return (
     <a href={link} target={"_blank"} >
       <div className="box">
-    
-      {icon}
-      <h4>{name}</h4>
-      <small>Message on {name}</small>
-
-      </div>
-</a>
+        {icon}
+        <h4>{name}</h4>
+        <small>Message me on {name}</small>
+      </ div>
+   </a>
   );
 };
 
