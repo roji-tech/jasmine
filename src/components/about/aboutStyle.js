@@ -134,52 +134,7 @@ export const AboutPics = styled.div`
   }
 `;
 
-// export const AboutPics = styled.div`
-//   box-sizing: border-box;
-//   padding: 50px;
 
-//   .about-pics {
-//     position: relative;
-//     background: var(--bg-dark);
-//     z-index: -2;
 
-//     ::after {
-//       content: "";
-//       position: absolute;
-//       top: 0;
-//       left: 0;
-//       right: 0;
-//       bottom: 0;
-//       background: var(--bg-light);
-//       transform-origin: 0 0;
-//       // transform: rotate(3deg);
-//       z-index: -1;
-//     }
 
-//     :hover {
-//       transform: scale(1);
-//       box-shadow: 0 0 20px 3px;
-//     }
-//   }
-// `;
 
-// export const AboutImg = styled.img`
-//     object-fit: cover;
-//     aspect-ratio: 1/1;
-//     width: 100%;
-//     height: 100%;
-//     justify-self: flex-end;
-//     transform-origin: 0 0;
-//     // transform: rotate(6deg);
-//     z-index: 2;
-
-//     :hover {
-//       transform: scale(1);
-//       box-shadow: 0 0 20px 3px;
-//     }
-
-//     @media screen and (max-width: 800px) {
-//       justify-self: center;
-//       margin-top: 30px;
-//     }
-// `;
