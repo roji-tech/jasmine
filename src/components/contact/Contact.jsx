@@ -37,16 +37,13 @@ const socialData = [
   },
 ];
 
-const Box = (props) => {
-  console.log(props.name);
+const Box = ({ name, url, icon }) => {
   return (
-    <a href={"url"}>
+    <a href={url} rel="noreferrer" target={"_blank"}>
       <div className="box">
-        {"icon"}
-        <h4>
-          {"name"}
-        </h4>
-        <small>Message me on {"name"}</small>
+        {icon}
+        <h4>{name}</h4>
+        <small>Message me on {name}</small>
       </div>
     </a>
   );
@@ -65,7 +62,7 @@ const Contact = ({ dark }) => {
         <div className="form">
           <div className="contact-box">
             {socialData.map((box, index) => (
-              <Box name={box.name} icon={box.icon} />
+              <Box name={box.name} url={box.url} icon={box.icon} />
             ))}
           </div>
           <form action="">
