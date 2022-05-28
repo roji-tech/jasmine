@@ -16,7 +16,7 @@ const Social = () => {
   return (
     <div>
       <div className="social-links">
-        <a href="https://wa.me/message/R62RHBTKYSZQB1">
+        <a href="https://wa.me/+2348134093585">
           <FaWhatsapp size={socialSize} className="social" />
         </a>
         <a href="abdullahjamiu4@gmail.com">
