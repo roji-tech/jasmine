@@ -12,40 +12,43 @@ import { ContactFormWrap, ContactHead, ContactWrap } from "./contactStyle";
 const socialData = [
   {
     name: "Whatsapp",
+    url: "https://wa.me/+2348134093585",
     icon: <FaWhatsapp fontSize={40} color={"green"} />,
-    link: "https://wa.me/+2348134093585",
   },
   {
     name: "Instagram",
+    url: "https://www.instagram.com/p/CcLW9xpsoPg/?igshid=YmMyMTA2M2Y=",
     icon: <FaInstagram fontSize={40} color={"green"} />,
-    link: "https://www.instagram.com/p/CcLW9xpsoPg/?igshid=YmMyMTA2M2Y=",
   },
   {
     name: "Telegram",
+    url: "https://t.me/aishawrite",
     icon: <FaTelegram fontSize={40} color={"green"} />,
-    link: "https://t.me/aishawrite",
   },
   {
     name: "Facebook",
+    url: "https://www.facebook.com/aisha.akinbani",
     icon: <FaFacebook fontSize={40} color={"green"} />,
-    link: "https://www.facebook.com/aisha.akinbani",
   },
   {
     name: "Twitter",
+    url: "twitter.com",
     icon: <FaTwitter fontSize={40} color={"green"} />,
-    link: "",
   },
 ];
 
-const Box = ({ name, icon, link }) => {
+const Box = (props) => {
+  console.log(props.name);
   return (
-    <a href={link} target={"_blank"} >
+    <a href={"url"}>
       <div className="box">
-        {icon}
-        <h4>{name}</h4>
-        <small>Message me on {name}</small>
-      </ div>
-   </a>
+        {"icon"}
+        <h4>
+          {"name"}
+        </h4>
+        <small>Message me on {"name"}</small>
+      </div>
+    </a>
   );
 };
 
