@@ -25,13 +25,13 @@ const Social = () => {
         <a href="">
           <FaTelegramPlane size={socialSize} className="social" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/aisha.akinbani">
           <FaFacebookF size={socialSize} className="social" />
         </a>
         <a href="">
           <FaTwitter size={socialSize} className="social" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/p/CcLW9xpsoPg/?igshid=YmMyMTA2M2Y=">
           <FaLinkedinIn size={socialSize} className="social" />
         </a>
       </div>
