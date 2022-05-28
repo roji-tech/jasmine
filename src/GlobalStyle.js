@@ -5,10 +5,10 @@ const GlobalStyle = createGlobalStyle`
   @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
   :root {
-  --bg-light: rgb(272, 231, 210);
+  --bg-light:	 #99ff99;
   --bg-white: rgb(255, 255, 250);
   --bg-image: url(./imgs/subtle-prism.svg);
-  --bg-dark:  #003e29;
+  --bg-dark: 	#004d00;
 
   --color-1: rgba(0, 239, 139, 0.456);
   --color-2: rgba(0, 0, 0, 0.256);
