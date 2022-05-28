@@ -23,7 +23,7 @@ export const AboutWrap = styled.section`
     align-items: center;
     justify-content: center;
     margin: 50px 0 20px 0;
-    box-shadow: 0 0 15px 2px;
+    box-shadow: 0 0 15px .5px;
 
     .about-content {
       display: grid;
