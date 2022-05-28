@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   --bg-white: rgb(255, 255, 250);
   --bg-image: url(./imgs/subtle-prism.svg);
   --bg-darker: 	#002900;
-  --bg-dark: 	#006600;
+  --bg-dark: 	#004000;
 
   --color-1: rgba(0, 239, 139, 0.456);
   --color-2: rgba(0, 0, 0, 0.256);
