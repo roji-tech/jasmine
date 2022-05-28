@@ -4,7 +4,7 @@ import {
   FaWhatsapp,
   FaTwitter,
   FaFacebookF,
-  FaLinkedinIn,
+  FaInstagram,
   FaTelegramPlane,
 } from "react-icons/fa";
 
@@ -32,7 +32,7 @@ const Social = () => {
           <FaTwitter size={socialSize} className="social" />
         </a>
         <a href="">
-          <FaLinkedinIn size={socialSize} className="social" />
+          <FaInstagram size={socialSize} className="social" />
         </a>
       </div>
     </div>
