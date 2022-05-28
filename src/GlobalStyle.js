@@ -39,8 +39,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: var(--bg-light);
-    color: var(--bg-darker);
+    background-color: var(--bg-darker);
+    color: var(--bg-light);
 
     .head{
       font-size: 2rem;
