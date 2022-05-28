@@ -40,12 +40,12 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     background: var(--bg-light);
-    color: var(--bg-light);
+    color: var(--bg-darker);
 
     .head{
       font-size: 2rem;
       padding: 20px;
-      color: var(--bg-darker)
+      color: var(--bg-light)
     }
     
     h1 {
