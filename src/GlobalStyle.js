@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
 
   :root {
   --bg-light: rgb(172, 231, 171);
-  --bg-white: rgb(255, 255, 255);
+  --bg-white: rgb(211, 155, 211);
   --bg-image: url(./imgs/subtle-prism.svg);
   --bg-dark: rgb(0, 125, 0);
   --bg-gray: rgb(85, 92, 80);
@@ -38,6 +38,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    background: var(--bg-white);
 
     .head{
       font-size: 2rem;
