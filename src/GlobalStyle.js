@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
 
   :root {
   --bg-light: rgb(272, 231, 171);
-  --bg-white: rgb(211, 155, 211);
+  --bg-white: rgb(255, 255, 250);
   --bg-image: url(./imgs/subtle-prism.svg);
   --bg-dark:  #003e29;
   --bg-gray: rgb(85, 92, 80);
