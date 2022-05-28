@@ -16,13 +16,13 @@ const Social = () => {
   return (
     <div>
       <div className="social-links">
-        <a href="">
+        <a href="https://wa.me/message/R62RHBTKYSZQB1">
           <FaWhatsapp size={socialSize} className="social" />
         </a>
-        <a href="">
+        <a href="abdullahjamiu4@gmail.com">
           <MdEmail size={socialSize} className="social" />
         </a>
-        <a href="">
+        <a href="https://t.me/Rojitech">
           <FaTelegramPlane size={socialSize} className="social" />
         </a>
         <a href="https://www.facebook.com/aisha.akinbani">
