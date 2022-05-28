@@ -11,7 +11,7 @@ export const ContactWrap = styled.section`
   align-self: center;
   border-radius: 10px;
   background-color: var(--bg-dark);
-  box-shadow: 0 0 15px .5px;
+  box-shadow: 0 0 15px 0.5px;
 
   .contact-stroke {
     margin: 6px;
@@ -60,33 +60,37 @@ export const ContactFormWrap = styled.div`
       align-items: center;
       border-right: 0.5px dotted var(--bg-darker);
 
-      .box {
-        color: var(--bg-light);
-        justify-self: center;
-        width: 180px;
-        height: 130px;
-        background-color: var(--color-2);
-        border-radius: 15px;
-        transition: background-color 0.2s ease-in;
-        cursor: pointer;
+      a {
+        text-decoration: none;
 
-        :hover {
-          background-color: var(--color-3);
-        }
-
-        &:nth-child(3) {
-          grid-column: 1/3;
+        .box {
+          color: var(--bg-light);
           justify-self: center;
-          align-self: center;
-        }
+          width: 180px;
+          height: 130px;
+          background-color: var(--color-2);
+          border-radius: 15px;
+          transition: background-color 0.2s ease-in;
+          cursor: pointer;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+          :hover {
+            background-color: var(--color-3);
+          }
 
-        h4 {
-          color: var(--bg-white);
+          &:nth-child(3) {
+            grid-column: 1/3;
+            justify-self: center;
+            align-self: center;
+          }
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          h4 {
+            color: var(--bg-white);
+          }
         }
       }
 
