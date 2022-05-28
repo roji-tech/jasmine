@@ -41,6 +41,7 @@ export const AboutWrap = styled.section`
     }
 
     .about-info {
+    color: var(--bg-white);
       padding: 10px;
       display: flex;
       flex-direction: column;
