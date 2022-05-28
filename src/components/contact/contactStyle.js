@@ -11,7 +11,7 @@ export const ContactWrap = styled.section`
   align-self: center;
   border-radius: 10px;
   background-color: var(--bg-dark);
-  box-shadow: 0 0 15px 2px;
+  box-shadow: 0 0 15px .5px;
 
   .contact-stroke {
     margin: 6px;
