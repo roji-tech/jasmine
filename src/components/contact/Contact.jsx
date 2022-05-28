@@ -4,8 +4,8 @@ import {
   FaWhatsapp,
   FaTelegram,
   FaFacebook,
-  FaLinkedinIn,
   FaTwitter,
+  FaInstagram,
 } from "react-icons/fa";
 import { ContactFormWrap, ContactHead, ContactWrap } from "./contactStyle";
 
@@ -13,22 +13,27 @@ const socialData = [
   {
     name: "Whatsapp",
     icon: <FaWhatsapp fontSize={40} color={"green"} />,
+    link: "https://wa.me/+2348134093585",
   },
   {
-    name: "Linked In",
-    icon: <FaLinkedinIn fontSize={40} color={"green"} />,
+    name: "Instagram",
+    icon: <FaInstagram fontSize={40} color={"green"} />,
+    link: "https://www.instagram.com/p/CcLW9xpsoPg/?igshid=YmMyMTA2M2Y=",
   },
   {
     name: "Telegram",
     icon: <FaTelegram fontSize={40} color={"green"} />,
+    link: "https://t.me/aishawrite",
   },
   {
     name: "Facebook",
     icon: <FaFacebook fontSize={40} color={"green"} />,
+    link: "https://www.facebook.com/aisha.akinbani",
   },
   {
     name: "Twitter",
     icon: <FaTwitter fontSize={40} color={"green"} />,
+    link: "",
   },
 ];
 
