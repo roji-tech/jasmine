@@ -9,7 +9,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderWrap = styled.div`
-  background: var(--bg-dark);
+  // background: var(--bg-dark);
   // max-height: 90vh;
   color: var(--bg-white);
   display: grid:
